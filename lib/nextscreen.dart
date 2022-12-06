@@ -51,7 +51,7 @@ class _nextscreenState extends State<nextscreen> {
                 setState(() {
                   widget.index--;
                 });
-              }, child: Text("<<")),
+              }, child: Text("<< Back")),
               ElevatedButton(onPressed: () async {
                 if(play)
                 {
@@ -70,7 +70,7 @@ class _nextscreenState extends State<nextscreen> {
                 setState(() {
                   widget.index++;
                 });
-              }, child: Text(">>")),
+              }, child: Text(">>Forward")),
             ],
           )
         ],
